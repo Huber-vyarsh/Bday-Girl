@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday Jessica",
+  "description": "A cinematic, romantic, interactive birthday experience handcrafted for Jessica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

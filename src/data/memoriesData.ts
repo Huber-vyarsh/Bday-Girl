@@ -1,0 +1,122 @@
+import { MemoryItem, VoiceNote } from '../types';
+
+/* ============================================================
+   MEMORIES & PHOTO GALLERY DATA
+   Easily expandable for 200+ photos. Supports categories,
+   captions, dates, locations, and voice note links.
+   ============================================================ */
+
+export const MEMORIES_DATA: MemoryItem[] = [
+  {
+    id: 'mem-01',
+    title: 'The Golden Hour Laugh',
+    category: 'us',
+    image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1000&q=80',
+    date: 'Autumn Evening',
+    location: 'Our Favorite Spot',
+    caption: 'That unfiltered laugh when we were supposed to take a serious aesthetic photo but started giggling uncontrollably.',
+    insideJoke: 'You threatened to post the one where my eyes were half closed.',
+    favorite: true,
+  },
+  {
+    id: 'mem-02',
+    title: 'Diva Mode: Activated',
+    category: 'fashion',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80',
+    date: 'Saturday Outfit Check',
+    location: 'The Living Room Runway',
+    caption: 'Spent 45 minutes deciding between two identical shades of black, then walked out looking like a million dollars.',
+    insideJoke: '"I literally have zero clothes to wear" — while staring into 4 packed wardrobes.',
+    favorite: true,
+  },
+  {
+    id: 'mem-03',
+    title: 'Malai Chaap Pilgrimage',
+    category: 'chaos',
+    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80',
+    date: 'Late Night Cravings',
+    location: 'Street Food Haven',
+    caption: 'Nothing comes between Jessica and her hot, buttery malai chaap. Not even my diet resolutions.',
+    insideJoke: 'The sheer laser focus in your eyes when the sizzling plate arrives.',
+    favorite: true,
+  },
+  {
+    id: 'mem-04',
+    title: 'Wanderlust & Sunset Whispers',
+    category: 'travel',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    date: 'Summer Escape',
+    location: 'Coastal Breeze',
+    caption: 'Holding hands watching the waves crash in slow motion. My favorite corner of the world is wherever you are.',
+    insideJoke: 'You made me take 142 photos until the breeze hit your hair "just right".',
+    favorite: true,
+  },
+  {
+    id: 'mem-05',
+    title: 'The Professional Gossip Briefing',
+    category: 'chaos',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80',
+    date: 'Every Evening at 8:30 PM',
+    location: 'Couch Headquarters',
+    caption: '"Wait wait wait, you are not going to believe what happened today." — Opening statement of the century.',
+    insideJoke: 'Head of Global Gossip Intelligence Bureau.',
+    favorite: false,
+  },
+  {
+    id: 'mem-06',
+    title: 'Sleeping Champion of the World',
+    category: 'memories',
+    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80',
+    date: 'Sunday Morning',
+    location: 'Under 3 Heavy Blankets',
+    caption: 'Could sleep through a thunder storm, but wakes up instantly if someone crinkles a snack wrapper in the kitchen.',
+    insideJoke: 'My Polar Bear in hibernation mode 🐻❄️',
+    favorite: false,
+  },
+  {
+    id: 'mem-07',
+    title: 'Story Posting CEO in Action',
+    category: 'fashion',
+    image: 'https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?auto=format&fit=crop&w=1000&q=80',
+    date: 'Café Date',
+    location: 'Aesthetic Coffee House',
+    caption: 'The iced latte cannot be consumed until 4 different boomerang angles have been thoroughly vetted.',
+    insideJoke: '"Don\'t touch the cup yet, the lighting is hitting the rim!"',
+    favorite: true,
+  },
+  {
+    id: 'mem-08',
+    title: 'Hand In Hand Through Everything',
+    category: 'us',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80',
+    date: 'Forever & Always',
+    location: 'Everywhere With You',
+    caption: 'My rock, my sweetest headache, my greatest adventure, and the woman who makes every ordinary day feel extraordinary.',
+    insideJoke: 'Khil & Batasha — sweet and inseparable.',
+    favorite: true,
+  },
+];
+
+export const VOICE_NOTES: VoiceNote[] = [
+  {
+    id: 'vn-01',
+    title: 'Why I Fell In Love With You',
+    duration: '01:24',
+    date: 'September 2026',
+    description: 'A quiet whisper about the little things you do that take my breath away every day.',
+  },
+  {
+    id: 'vn-02',
+    title: 'The Polar Bear Chronicles',
+    duration: '00:52',
+    date: 'Midnight Thoughts',
+    description: 'Recounting the time you stole the blanket and blamed the laws of physics.',
+  },
+  {
+    id: 'vn-03',
+    title: 'A Promise For Our Next Chapter',
+    duration: '02:08',
+    date: 'Birthday Special',
+    description: 'Everything I look forward to building, exploring, and laughing through with you.',
+  },
+];
